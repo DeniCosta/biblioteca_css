@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "Ferramenta que vai receber uma lista de propriedades CSS e retorná-la em ordem alfabética",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "DeniCosta",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.10"
+  }
 }

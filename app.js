@@ -1,9 +1,14 @@
 import figlet from "figlet";
 import gradient from "gradient-string";
 
-//Título da ferramenta no terminal
-console.log(
+function exibirTitulo() {
+  console.log(
     gradient.pastel.multiline(figlet.textSync("Biblioteca CSS", {
-        horizontalLayout: "full",
+      horizontalLayout: "full",
+      font: "Big",
     }))
-);
+  );
+}
+
+exibirTitulo();
+

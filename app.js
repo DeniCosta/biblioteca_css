@@ -8,17 +8,16 @@ class ListaPropriedadesCSS {
   constructor() {
     this.propriedades = [];
   }
-}
 
-function exibirTitulo() {
-  console.log(
-    gradient.pastel.multiline(figlet.textSync("Biblioteca CSS", {
-      horizontalLayout: "full",
-      font: "Big",
-    }))
-  );
-}
+  exibirTitulo() {
+    console.log(
+      gradient.pastel.multiline(figlet.textSync("Biblioteca CSS", {
+        horizontalLayout: "full",
+        font: "Big",
+      }))
+    );
+  }
 
-exibirTitulo();
+}
 
 const listaCSS = new ListaPropriedadesCSS();

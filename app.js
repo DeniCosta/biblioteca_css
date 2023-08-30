@@ -4,6 +4,12 @@ import inquirer from "inquirer";
 import cliTable from "cli-table3";
 import chalk from "chalk";
 
+class ListaPropriedadesCSS {
+  constructor() {
+    this.propriedades = [];
+  }
+}
+
 function exibirTitulo() {
   console.log(
     gradient.pastel.multiline(figlet.textSync("Biblioteca CSS", {
@@ -15,3 +21,4 @@ function exibirTitulo() {
 
 exibirTitulo();
 
+const listaCSS = new ListaPropriedadesCSS();

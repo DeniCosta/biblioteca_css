@@ -5,7 +5,8 @@
   "description": "Ferramenta que vai receber uma lista de propriedades CSS e retorná-la em ordem alfabética",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
   },
   "author": "DeniCosta",
   "license": "MIT",

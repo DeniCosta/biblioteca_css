@@ -54,6 +54,24 @@ class ListaPropriedadesCSS {
     }
   }
 
+  exibirPropriedades() {
+    if (this.propriedades.length === 0) {
+      console.log("Nenhuma propriedade foi adicionada.");
+    } else {
+      const propriedadesOrdenadas = [...this.propriedades].sort();
+
+      const tabela = new cliTable({
+        head: [chalk.bold.cyanBright("Propriedade")],
+      });
+
+      propriedadesOrdenadas.forEach((prop) => {
+        tabela.push([prop]);
+      });
+
+      console.log(tabela.toString());
+    }
+  }
+
 }
 
 const listaCSS = new ListaPropriedadesCSS();

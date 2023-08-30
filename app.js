@@ -72,6 +72,13 @@ class ListaPropriedadesCSS {
     }
   }
 
+  async iniciar() {
+    await this.exibirTitulo();
+    await this.coletarPropriedades();
+    await this.exibirPropriedades();
+  }
+
 }
 
 const listaCSS = new ListaPropriedadesCSS();
+listaCSS.iniciar();

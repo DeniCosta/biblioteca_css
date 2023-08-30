@@ -39,6 +39,21 @@ class ListaPropriedadesCSS {
     }
   }
 
+  validarPropriedade(propriedade) {
+    const ehPropriedadeValida = /^[a-z\-]+$/.test(propriedade);
+
+    if (propriedade === "") {
+      console.error("Entrada vazia. Por favor, digite uma propriedade válida.");
+    } else if (!ehPropriedadeValida) {
+      console.error("Entrada inválida. Utilize apenas letras e hífens.");
+    } else if (this.propriedades.includes(propriedade)) {
+      console.error("Entrada duplicada. Essa propriedade já foi adicionada.");
+    } else {
+      this.propriedades.push(propriedade);
+      console.log(`Propriedade "${propriedade}" adicionada com sucesso.`);
+    }
+  }
+
 }
 
 const listaCSS = new ListaPropriedadesCSS();

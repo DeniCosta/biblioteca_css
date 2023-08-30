@@ -9,7 +9,7 @@ class ListaPropriedadesCSS {
     this.propriedades = [];
   }
 
-  exibirTitulo() {
+  async exibirTitulo() {
     console.log(
       gradient.pastel.multiline(figlet.textSync("Biblioteca CSS", {
         horizontalLayout: "full",
@@ -18,12 +18,12 @@ class ListaPropriedadesCSS {
     );
   }
 
-  coletarPropriedades() {
+  async coletarPropriedades() {
     const prompt = inquirer.createPromptModule();
 
     let continuar = true;
     while (continuar) {
-      const resposta = prompt.sync({
+      const resposta = await prompt({
         type: "input",
         name: "propriedade",
         message: "Digite uma propriedade de CSS (ou digite 'SAIR' para encerrar):",
@@ -34,12 +34,12 @@ class ListaPropriedadesCSS {
       if (propriedade.toUpperCase() === "SAIR") {
         continuar = false;
       } else {
-        this.validarPropriedade(propriedade);
+        await this.validarPropriedade(propriedade);
       }
     }
   }
 
-  validarPropriedade(propriedade) {
+  async validarPropriedade(propriedade) {
     const ehPropriedadeValida = /^[a-z\-]+$/.test(propriedade);
 
     if (propriedade === "") {
@@ -54,7 +54,7 @@ class ListaPropriedadesCSS {
     }
   }
 
-  exibirPropriedades() {
+  async exibirPropriedades() {
     if (this.propriedades.length === 0) {
       console.log("Nenhuma propriedade foi adicionada.");
     } else {

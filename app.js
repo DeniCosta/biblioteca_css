@@ -18,6 +18,27 @@ class ListaPropriedadesCSS {
     );
   }
 
+  coletarPropriedades() {
+    const prompt = inquirer.createPromptModule();
+
+    let continuar = true;
+    while (continuar) {
+      const resposta = prompt.sync({
+        type: "input",
+        name: "propriedade",
+        message: "Digite uma propriedade de CSS (ou digite 'SAIR' para encerrar):",
+      });
+
+      const propriedade = resposta.propriedade.trim().toLowerCase();
+
+      if (propriedade.toUpperCase() === "SAIR") {
+        continuar = false;
+      } else {
+        this.validarPropriedade(propriedade);
+      }
+    }
+  }
+
 }
 
 const listaCSS = new ListaPropriedadesCSS();

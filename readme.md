@@ -9,6 +9,8 @@ https://github.com/DeniCosta/biblioteca_css/assets/106042686/5fa6079e-f8b3-4e61-
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#guia-de-execução">Guia de Execução</a>
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#exemplos-de-interação">Exemplos</a>
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#autor">Autor</a>
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#licença">Licença</a>

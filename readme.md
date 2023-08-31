@@ -18,14 +18,14 @@ https://github.com/DeniCosta/biblioteca_css/assets/106042686/5fa6079e-f8b3-4e61-
 
 A aplicação utiliza as seguintes tecnologias:
 
-- **JavaScript:** A linguagem de programação principal para desenvolver a lógica e funcionalidade da aplicação.
-- **Node.js:** Um ambiente de tempo de execução que permite executar JavaScript no lado do servidor e construir aplicativos de rede escaláveis.
-- **Git/GitHub:** Para controle de versionamento e colaboração no desenvolvimento do projeto.
-- **Figlet:** Para criar arte em texto estilizado no terminal.
-- **Gradient-string:** Para adicionar gradientes coloridos ao texto no terminal.
-- **Inquirer:** Para criar uma interface interativa de perguntas e respostas no terminal.
-- **Cli-table3:** Para gerar uma tabela formatada no terminal.
-- **Chalk:** Para estilizar o texto no terminal com cores.
+- [**JavaScript:**](https://developer.mozilla.org/en-US/docs/Web/JavaScript)A linguagem de programação principal para desenvolver a lógica e funcionalidade da aplicação.
+- [**Node.js:**](https://nodejs.org/en/docs) Um ambiente de tempo de execução que permite executar JavaScript no lado do servidor e construir aplicativos de rede escaláveis.
+- [**Git**](https://nodejs.org/en/docs) **/** [**Github:**](https://docs.github.com/pt) Para controle de versionamento e colaboração no desenvolvimento do projeto.
+- [**Figlet:**](https://www.npmjs.com/package/figlet) Para criar arte em texto estilizado no terminal.
+- [**Gradient-string:**](https://www.npmjs.com/package/gradient-string)Para adicionar gradientes coloridos ao texto no terminal.
+- [**Inquirer:**](https://www.npmjs.com/package/inquirer)Para criar uma interface interativa de perguntas e respostas no terminal.
+- [**Cli-table3:**](https://www.npmjs.com/package/cli-table3) Para gerar uma tabela formatada no terminal.
+- [**Chalk:**](https://www.npmjs.com/package/chalk)Para estilizar o texto no terminal com cores.
 
 Essas tecnologias combinadas proporcionam uma experiência visual agradável e interativa.
 
@@ -81,7 +81,7 @@ npm start
 
 3. Ao escrever "SAIR" será exibida a tabela com a lista ordenada das propriedades válidas adicionadas:
 
-###Entradas inválidas
+### Entradas inválidas
 1. Caso sejam adicionadas entradas vazias, duplicadas, ou que contenham caracteres diferentes de a-z e hífen(-), será exibida uma menssagem de erro e solicitará uma nova propriedade:
 
 2. Caso não seja inserida nenhuma propriedade válida e seja digitado "SAIR" será exibida a mensagem a seguir e a aplicação será encerrada:

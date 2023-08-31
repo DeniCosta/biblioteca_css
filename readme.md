@@ -79,7 +79,7 @@ npm start
 
 ![`Digite uma propriedade de CSS (ou digite 'SAIR' para ver a lista e encerrar):`](./src/utils/inicio.png)
 
-2. Escreva individualmente os nomes das propriedades que deseja inserir:
+2. Escreva individualmente os nomes das propriedades que deseja inserir, seguido da tecla "Enter":
 
 ![`inputs`](./src/utils/inputs_sucesso.png)
 

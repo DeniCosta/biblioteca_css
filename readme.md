@@ -51,7 +51,7 @@ faça o download do arquivo ZIP deste repositório.
 
 3. Abra o terminal Bash, ou similar, e navegue até o diretório do projeto.
 
-3. Execute o seguinte comando para instalar as dependências:
+4. Execute o seguinte comando para instalar as dependências:
 
 ```bash
 npm install

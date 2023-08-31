@@ -46,6 +46,11 @@ faça o download do arquivo ZIP deste repositório.
 
 2. Abra o repositório clonado no editor de código de sua preferência. [Clique aqui](https://code.visualstudio.com) para fazer o download do VScode, caso ainda não tenha um.
 
+3. Abra o terminal Git, ou similar, e use o comando 'cd' para entrar no diretório do projeto:
+
+```bash
+cd caminho/para/o/projeto
+```
 
 4. Execute o seguinte comando para instalar as dependências:
 

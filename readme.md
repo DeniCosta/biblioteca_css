@@ -66,6 +66,25 @@ Após instalar as dependências, você pode executar a aplicação usando o segu
 npm start
 ```
 
+### Exemplos de interação
+Aqui estão alguns exemplos de como a interação com a aplicação pode ocorrer:
+
+1. Inicie a aplicação
+```bash
+npm start
+```
+2. Irá aparecer a seguinte mensagem:
+
+`Digite uma propriedade de CSS (ou digite 'SAIR' para ver a lista e encerrar):`
+
+2. Escreva individualmente os nomes das propriedades que deseja inserir:
+
+3. Ao escrever "SAIR" será exibida a tabela com a lista ordenada das propriedades válidas adicionadas:
+
+###Entradas inválidas
+1. Caso sejam adicionadas entradas vazias, duplicadas, ou que contenham caracteres diferentes de a-z e hífen(-), será exibida uma menssagem de erro e solicitará uma nova propriedade:
+
+2. Caso não seja inserida nenhuma propriedade válida e seja digitado "SAIR" será exibida a mensagem a seguir e a aplicação será encerrada:
 
 
 ## Autor

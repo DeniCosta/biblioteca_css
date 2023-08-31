@@ -43,7 +43,7 @@ Antes de começar, verifique se você possui o Node.js instalado em sua máquina
 
 ### Instalação
 
-1. Use o comando: `git clone [https://github.com/DeniCosta/biblioteca_css.git]` no terminal de sua preferência. Entretanto, o terminal do [git](https://git-scm.com) é fortemente recomendado.<br>
+1. Use o comando: `git clone https://github.com/DeniCosta/biblioteca_css.git` no terminal de sua preferência. Entretanto, o terminal do [git](https://git-scm.com) é fortemente recomendado.<br>
 ou<br>
 faça o download do arquivo ZIP deste repositório.
 

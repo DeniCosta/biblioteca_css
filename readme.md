@@ -98,7 +98,9 @@ npm start
 
 ## Autor
 
-Desenvolvido com ❤️ por [Denise Costa](https://www.linkedin.com/in/-denisecosta-/)
+<p align="center">
+Desenvolvido com ❤️ por <a href="https://www.linkedin.com/in/-denisecosta-/">Denise Costa</a>
+</p>
 
 ## Licença
 

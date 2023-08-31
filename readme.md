@@ -2,11 +2,7 @@
 
 Este projeto consiste em uma aplicação de linha de comando desenvolvida em JavaScript, utilizando o ambiente Node.js. Ela permite aos usuários adicionar propriedades CSS por meio do terminal e exibi-las de forma ordenada em formato de tabela.
 
-
-
 https://github.com/DeniCosta/biblioteca_css/assets/106042686/5fa6079e-f8b3-4e61-9ad2-13d06c730c38
-
-
 
 <p align="center">
 <a href="#tecnologias-utilizadas">Tecnologias</a>
@@ -39,7 +35,8 @@ Aqui está um guia passo a passo para executar o projeto em sua máquina local.
 
 ### Pré-requisitos
 
-Antes de começar, verifique se você possui o Node.js instalado em sua máquina (v18.16.0 ou superior). Caso não tenha, você pode baixá-lo e instalá-lo a partir do site oficial do Node.js: [https://nodejs.org/](https://nodejs.org/)
+- **Node.js:** Versão 18.16.0. [Saiba Mais](https://nodejs.org/)
+- **Git:** Para clonar o repositório utilizando o termina Git Bash. [Saiba Mais](https://git-scm.com/)
 
 ### Instalação
 
@@ -49,7 +46,6 @@ faça o download do arquivo ZIP deste repositório.
 
 2. Abra o repositório clonado no editor de código de sua preferência. [Clique aqui](https://code.visualstudio.com) para fazer o download do VScode, caso ainda não tenha um.
 
-3. Abra o terminal Bash, ou similar, e navegue até o diretório do projeto.
 
 4. Execute o seguinte comando para instalar as dependências:
 
@@ -65,7 +61,7 @@ Após instalar as dependências, você pode executar a aplicação usando o segu
 npm start
 ```
 
-Siga as instruções no terminal para adicionar propriedades de CSS e visualizar a lista ordenada.
+
 
 ## Autor
 

@@ -2,6 +2,8 @@
 
 Este projeto consiste em uma aplicação de linha de comando desenvolvida em JavaScript, utilizando o ambiente Node.js. Ela permite aos usuários adicionar propriedades CSS por meio do terminal e exibi-las de forma ordenada em formato de tabela.
 
+[![Watch the video](https://img.youtube.com/vi/fJMyKgWfQNg/maxresdefault.jpg)](https://www.youtube.com/watch?v=fJMyKgWfQNg)
+
 <p align="center">
 <a href="#tecnologias-utilizadas">Tecnologias</a>
 &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;

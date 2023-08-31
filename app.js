@@ -23,31 +23,35 @@ class ListaPropriedadesCSS {
 
     let continuar = true;
     while (continuar) {
-      const resposta = await prompt({
-        type: "input",
-        name: "propriedade",
-        message: "Digite uma propriedade de CSS (ou digite 'SAIR' para ver a lista e encerrar):",
-      });
+        const resposta = await prompt({
+            type: "input",
+            name: "propriedade",
+            message: "Digite uma propriedade de CSS (ou digite 'SAIR' para ver a lista e encerrar):",
+        });
 
-      const propriedade = resposta.propriedade.trim().toLowerCase();
+        const propriedade = resposta.propriedade.trim().toLowerCase();
 
-      if (propriedade.toUpperCase() === "SAIR") {
-        continuar = false;
-      } else {
-        await this.validarPropriedade(propriedade);
-      }
+        if (propriedade.toUpperCase() === "SAIR") {
+            continuar = false;
+        } else {
+            try {
+                await this.validarPropriedade(propriedade);
+            } catch (error) {
+                console.error(error.message);
+            }
+        }
     }
-  }
+}
 
   async validarPropriedade(propriedade) {
     const ehPropriedadeValida = /^[a-z\-]+$/.test(propriedade);
 
     if (propriedade === "") {
-      console.error("Entrada vazia. Por favor, digite uma propriedade válida.");
+      throw new Error("Entrada vazia. Por favor, digite uma propriedade válida.");
     } else if (!ehPropriedadeValida) {
-      console.error("Entrada inválida. Utilize apenas letras e hífens.");
+      throw new Error("Entrada inválida. Utilize apenas letras e hífens.");
     } else if (this.propriedades.includes(propriedade)) {
-      console.error("Entrada duplicada. Essa propriedade já foi adicionada.");
+      throw new Error("Entrada duplicada. Essa propriedade já foi adicionada.");
     } else {
       this.propriedades.push(propriedade);
       console.log(`Propriedade "${propriedade}" adicionada com sucesso.`);

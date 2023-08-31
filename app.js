@@ -26,7 +26,7 @@ class ListaPropriedadesCSS {
       const resposta = await prompt({
         type: "input",
         name: "propriedade",
-        message: "Digite uma propriedade de CSS (ou digite 'SAIR' para encerrar):",
+        message: "Digite uma propriedade de CSS (ou digite 'SAIR' para ver a lista e encerrar):",
       });
 
       const propriedade = resposta.propriedade.trim().toLowerCase();

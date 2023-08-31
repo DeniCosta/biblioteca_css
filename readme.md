@@ -37,8 +37,8 @@ Aqui está um guia passo a passo para executar o projeto em sua máquina local.
 
 ### Pré-requisitos
 
-- **Node.js:** Versão 18.16.0. [Saiba Mais](https://nodejs.org/)
-- **Git:** Para clonar o repositório utilizando o termina Git Bash. [Saiba Mais](https://git-scm.com/)
+- [**Node.js:**](https://nodejs.org/) Versão 18.16.0. 
+- [**Git:** ](https://git-scm.com/) Para clonar o repositório utilizando o termina Git Bash. 
 
 ### Instalação
 
@@ -77,17 +77,24 @@ npm start
 ```
 2. Irá aparecer a seguinte mensagem:
 
-`Digite uma propriedade de CSS (ou digite 'SAIR' para ver a lista e encerrar):`
+![`Digite uma propriedade de CSS (ou digite 'SAIR' para ver a lista e encerrar):`](./src/utils/inicio.png)
 
 2. Escreva individualmente os nomes das propriedades que deseja inserir:
 
+![`inputs`](./src/utils/inputs_sucesso.png)
+
 3. Ao escrever "SAIR" será exibida a tabela com a lista ordenada das propriedades válidas adicionadas:
+
+![`output sucesso`](./src/utils/resultado_sucesso.png)
 
 ### Entradas inválidas
 1. Caso sejam adicionadas entradas vazias, duplicadas, ou que contenham caracteres diferentes de a-z e hífen(-), será exibida uma menssagem de erro e solicitará uma nova propriedade:
 
+![`entradas inválidas`](./src/utils/erro.png)
+
 2. Caso não seja inserida nenhuma propriedade válida e seja digitado "SAIR" será exibida a mensagem a seguir e a aplicação será encerrada:
 
+![`lista vazia`](./src/utils/lista_vazia.png)
 
 ## Autor
 
